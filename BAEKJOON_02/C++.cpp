@@ -11,15 +11,15 @@ int main()
 	{
 		printf("A");
 	}
-	else if (89 >= a >= 80)
+	else if (89 <= a || a>= 80)
 	{
 		printf("B");
 	}
-	else if (79 >= a >= 70)
+	else if (79 <= a|| a >= 70)
 	{
 		printf("C");
 	}
-	else if (69 >= a >= 60)
+	else if (69 <= a|| a >= 60)
 	{
 		printf("D");
 	}
